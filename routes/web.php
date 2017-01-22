@@ -12,5 +12,39 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    return view('frontend.blog.index');
+});
+Route::get('/ql', function () {
+
+});
+Route::get('/article', function () {
+
+    return view('frontend.blog.article');
+});
+
+
+Route::group([
+    'namespace' => 'Backend',
+], function () {
+    Route::get('crawl', [
+        'as' => 'crawl',
+        'uses' => 'CrawlController@crawl',
+    ]);
+    Route::get('redis', [
+        'as' => 'redis',
+        'uses' => 'CrawlController@redis',
+    ]);
+    Route::get('collection', [
+        'as' => 'redis',
+        'uses' => 'CrawlController@collection',
+    ]);
+    Route::get('db', [
+        'as' => 'redis',
+        'uses' => 'CrawlController@db',
+    ]);
+    Route::get('markdown', [
+        'as' => 'markdown',
+        'uses' => 'CrawlController@markdown',
+    ]);
 });

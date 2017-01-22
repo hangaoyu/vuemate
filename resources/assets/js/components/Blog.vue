@@ -1,21 +1,16 @@
 <template>
     <div>
-        <h1>aaa</h1>
+        <blog-lists></blog-lists>
     </div>
 </template>
-
 <script>
     export default {
         data(){
             return {
-
                 items: []
-
             };
         },
-        mounted() {
-
-        },
-        methods: {}
+        methods: {
+        }
     }
 </script>
