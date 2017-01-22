@@ -6,8 +6,8 @@
  */
 
 require('./bootstrap');
-import VueRouter from 'vue-router';
-Vue.use(VueRouter)
+// import VueRouter from 'vue-router';
+// Vue.use(VueRouter)
 // var VueMaterial = require('vue-material');
 // Vue.use(VueMaterial);
 /**
@@ -15,24 +15,23 @@ Vue.use(VueRouter)
  * the body of the page. From here, you may begin adding components to
  * the application, or feel free to tweak this setup for your needs.
  */
-Vue.component('blog-header', require('./components/BlogHeader.vue'));
-Vue.component('blog-lists', require('./components/BlogLists.vue'));
-Vue.component('blog-article', require('./components/BlogArticle.vue'));
-Vue.component('blog', require('./components/Blog.vue'));
-import App from './components/App.vue'
-import Example from './components/Example.vue'
-import Blog from './components/Blog.vue'
-import Article from './components/BlogArticle.vue'
+// Vue.component('blog-header', require('./components/BlogHeader.vue'));
+// Vue.component('blog-lists', require('./components/BlogLists.vue'));
+// Vue.component('blog-article', require('./components/BlogArticle.vue'));
+// Vue.component('blog', require('./components/Blog.vue'));
+// import App from './components/App.vue'
+// import Example from './components/Example.vue'
+// import Blog from './components/Blog.vue'
+// import Article from './components/BlogArticle.vue'
 
 
 
-const router = new VueRouter({
-    mode: 'history',
-    base: __dirname,
-    routes: [
-        { path: '/', component: Blog },
-        { path: '/article', component: Article }
-    ]
-})
+// const router = new VueRouter({
+//     mode: 'history',
+//     base: __dirname,
+//     routes: [
+//         { path: '/', component: Blog },
+//     ]
+// })
 
-new Vue(Vue.util.extend({ router }, App)).$mount('#app')
+// new Vue(Vue.util.extend({ router }, App)).$mount('#app')

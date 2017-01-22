@@ -39,8 +39,7 @@
                                     <li class="navigation__item"><a href="http://about.onevcat.com/" target="_blank"
                                                                     title="了解更多关于我">关于</a></li>
 
-                                    <li class="navigation__item"><a href="//store.objccn.io/subscribe" target="_blank"
-                                                                    title="邮件订阅本站">订阅</a></li>
+
 
                                 </ul>
                             </nav>

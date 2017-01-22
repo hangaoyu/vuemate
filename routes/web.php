@@ -11,22 +11,41 @@
 |
 */
 
-Route::get('/', function () {
+Route::group([
+    'namespace' => 'Frontend',
+], function () {
 
-    return view('frontend.blog.index');
-});
-Route::get('/ql', function () {
+    Route::get('/', [
+        'as' => 'index',
+        'uses' => 'BlogController@index',
+    ]);
+    Route::get('/post/{id}', 'BlogController@show')->name('post.show');
 
-});
-Route::get('/article', function () {
 
-    return view('frontend.blog.article');
+
 });
 
 
 Route::group([
     'namespace' => 'Backend',
 ], function () {
+    Route::post('/blog/picture/upload', 'ArticleController@imagesStore');
+    Route::get('/create', [
+        'as' => 'create',
+        'uses' => 'ArticleController@create',
+    ]);
+    Route::post('/post', 'ArticleController@store');
+
+
+
+
+
+
+
+
+
+
+
     Route::get('crawl', [
         'as' => 'crawl',
         'uses' => 'CrawlController@crawl',
