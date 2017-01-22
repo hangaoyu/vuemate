@@ -10,6 +10,7 @@ namespace App\Repositories\Blog;
 
 
 use App\Facades\HelpFacades;
+use App\Repositories\CommonRepository;
 
 
 class ArticleRepository extends CommonRepository
