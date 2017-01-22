@@ -6,7 +6,7 @@
  * Time: 13:39
  */
 
-namespace App\Repositories;
+namespace App\Repositories\Blog;
 
 
 use App\Facades\HelpFacades;

@@ -2,7 +2,8 @@
 
 namespace App\Providers;
 
-use App\Repositories\ArticleRepository;
+
+use App\Repositories\Blog\ArticleRepository;
 use Illuminate\Support\ServiceProvider;
 
 
