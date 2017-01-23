@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 
 use App\Markdown\Markdown;
-use App\Repositories\ArticleRepository;
+
+use App\Repositories\Blog\ArticleRepository;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
