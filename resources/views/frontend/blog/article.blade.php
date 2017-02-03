@@ -2,11 +2,14 @@
 @section('content')
     <div class="article">
         <div class="article-content">
-            <div class="container" >
+            <h1 class="post-title">{{$article->title}}</h1>
+            <div class="container">
+
                 {!! $article->html !!}
+                <div class=" share-component">
+                </div>
             </div>
-            <div class="container share-component">
-            </div>
+            <div class="article-footer"></div>
         </div>
     </div>
 @endsection
