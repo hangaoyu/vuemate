@@ -13,6 +13,21 @@
 
     <link rel="stylesheet" href="{{ asset('/css/blog.css') }}">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+
     <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="{{ asset('/css/share.min.css') }}">
     <script src="{{ asset('/js/social-share.min.js') }}"></script>
