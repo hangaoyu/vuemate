@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>韩高宇的blog</title>
     <meta name="description" content="韩高宇的测试blog">
+    <meta name="keyword" content="韩高宇,韩高宇的测试blog">
     <link rel="icon" type="image/png" href="{{ asset('/images/avatar.png') }}"/>
     <link href="{{ asset('/images/avatar.png') }}" rel="shortcut icon" type="image/png">
 
