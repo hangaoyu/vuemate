@@ -4,15 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>韩高宇</title>
-    <meta name="description" content="嗨，我是王巍 (@onevcat)，一名来自中国的 iOS / Unity 开发者。现居日本，就职于 LINE。正在修行，探求创意之源。">
-    <meta name="author" content="Wei Wang">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="OneV&#39;s Den">
-    <meta name="twitter:description" content="嗨，我是王巍 (@onevcat)，一名来自中国的 iOS / Unity 开发者。现居日本，就职于 LINE。正在修行，探求创意之源。">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="OneV&#39;s Den">
-    <meta property="og:description" content="嗨，我是王巍 (@onevcat)，一名来自中国的 iOS / Unity 开发者。现居日本，就职于 LINE。正在修行，探求创意之源。">
+    <title>韩高宇的blog</title>
+    <meta name="description" content="韩高宇的测试blog">
     <link rel="icon" type="image/png" href="{{ asset('/images/avatar.png') }}"/>
     <link href="{{ asset('/images/avatar.png') }}" rel="shortcut icon" type="image/png">
 
@@ -22,18 +15,21 @@
     <link rel="stylesheet" href="{{ asset('/css/share.min.css') }}">
     <script src="{{ asset('/js/social-share.min.js') }}"></script>
     <style>
-        .panel-cover{
+        .panel-cover {
             width: 30%;
         }
+
         .article {
             display: inline-block;
             width: 100%;
         }
+
         .article-content {
             margin-left: 30%;
         }
-        blockquote{
-            border-left: 3px solid rgba(61,66,96,0.6);
+
+        blockquote {
+            border-left: 3px solid rgba(61, 66, 96, 0.6);
         }
 
 
