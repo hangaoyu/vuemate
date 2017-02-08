@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>韩高宇的blog</title>
+    <title>test</title>
     <meta name="description" content="韩高宇的测试blog">
     <meta name="keyword" content="韩高宇,韩高宇的测试blog">
     <meta name="baidu-site-verification" content="LYTpF8z48w" />

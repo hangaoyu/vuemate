@@ -4,11 +4,12 @@ namespace App\Http\Controllers\Frontend;
 
 
 use App\Markdown\Markdown;
-
+use App\Models\Article;
 use App\Repositories\Blog\ArticleRepository;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use App\Http\Controllers\Frontend\Test;
+use Illuminate\Support\Facades\DB;
 
 class BlogController extends Controller
 {
@@ -21,12 +22,20 @@ class BlogController extends Controller
 
     }
 
+    
+
     public function index()
     {
+
         $articles = ArticleRepository::getInstance()->all();
 
         return view('frontend.blog.index', compact('articles'));
+
+
+
     }
+
+
 
     public function show($id)
     {
